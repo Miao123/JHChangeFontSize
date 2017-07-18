@@ -9,12 +9,16 @@
 /* Begin PBXBuildFile section */
 		DDC8C89D1F1C5E3900CA07F7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DDC8C89C1F1C5E3900CA07F7 /* main.m */; };
 		DDC8C8A01F1C5E3900CA07F7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DDC8C89F1F1C5E3900CA07F7 /* AppDelegate.m */; };
-		DDC8C8A31F1C5E3900CA07F7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DDC8C8A21F1C5E3900CA07F7 /* ViewController.m */; };
 		DDC8C8A61F1C5E3900CA07F7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDC8C8A41F1C5E3900CA07F7 /* Main.storyboard */; };
 		DDC8C8A81F1C5E3900CA07F7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDC8C8A71F1C5E3900CA07F7 /* Assets.xcassets */; };
 		DDC8C8AB1F1C5E3900CA07F7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDC8C8A91F1C5E3900CA07F7 /* LaunchScreen.storyboard */; };
 		DDC8C8B61F1C5E3900CA07F7 /* ______Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = DDC8C8B51F1C5E3900CA07F7 /* ______Tests.m */; };
 		DDC8C8C11F1C5E3900CA07F7 /* ______UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DDC8C8C01F1C5E3900CA07F7 /* ______UITests.m */; };
+		DDC8C8D71F1C600700CA07F7 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DDC8C8D61F1C600700CA07F7 /* HomeViewController.m */; };
+		DDC8C8DA1F1C61D300CA07F7 /* ActivityViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DDC8C8D91F1C61D300CA07F7 /* ActivityViewController.m */; };
+		DDC8C8DD1F1C61E400CA07F7 /* SetUpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DDC8C8DC1F1C61E400CA07F7 /* SetUpViewController.m */; };
+		DDC8C8E61F1C914A00CA07F7 /* ChangeFontController.m in Sources */ = {isa = PBXBuildFile; fileRef = DDC8C8E51F1C914A00CA07F7 /* ChangeFontController.m */; };
+		DDC8C8E91F1CA1B200CA07F7 /* MJHUser.m in Sources */ = {isa = PBXBuildFile; fileRef = DDC8C8E81F1CA1B200CA07F7 /* MJHUser.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,10 +41,8 @@
 /* Begin PBXFileReference section */
 		DDC8C8981F1C5E3900CA07F7 /* 更改字体大小.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "更改字体大小.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DDC8C89C1F1C5E3900CA07F7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		DDC8C89E1F1C5E3900CA07F7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		DDC8C89F1F1C5E3900CA07F7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		DDC8C8A11F1C5E3900CA07F7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		DDC8C8A21F1C5E3900CA07F7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DDC8C89E1F1C5E3900CA07F7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = "更改字体大小/AppDelegate.h"; sourceTree = SOURCE_ROOT; };
+		DDC8C89F1F1C5E3900CA07F7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = "更改字体大小/AppDelegate.m"; sourceTree = SOURCE_ROOT; };
 		DDC8C8A51F1C5E3900CA07F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DDC8C8A71F1C5E3900CA07F7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DDC8C8AA1F1C5E3900CA07F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +53,18 @@
 		DDC8C8BC1F1C5E3900CA07F7 /* 更改字体大小UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "更改字体大小UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DDC8C8C01F1C5E3900CA07F7 /* ______UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "______UITests.m"; sourceTree = "<group>"; };
 		DDC8C8C21F1C5E3900CA07F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DDC8C8D51F1C600700CA07F7 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		DDC8C8D61F1C600700CA07F7 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		DDC8C8D81F1C61D300CA07F7 /* ActivityViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActivityViewController.h; sourceTree = "<group>"; };
+		DDC8C8D91F1C61D300CA07F7 /* ActivityViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActivityViewController.m; sourceTree = "<group>"; };
+		DDC8C8DB1F1C61E400CA07F7 /* SetUpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SetUpViewController.h; sourceTree = "<group>"; };
+		DDC8C8DC1F1C61E400CA07F7 /* SetUpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SetUpViewController.m; sourceTree = "<group>"; };
+		DDC8C8E21F1C8E4200CA07F7 /* Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
+		DDC8C8E31F1C8E8D00CA07F7 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		DDC8C8E41F1C914A00CA07F7 /* ChangeFontController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChangeFontController.h; sourceTree = "<group>"; };
+		DDC8C8E51F1C914A00CA07F7 /* ChangeFontController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChangeFontController.m; sourceTree = "<group>"; };
+		DDC8C8E71F1CA1B200CA07F7 /* MJHUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJHUser.h; sourceTree = "<group>"; };
+		DDC8C8E81F1CA1B200CA07F7 /* MJHUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJHUser.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,14 +115,11 @@
 		DDC8C89A1F1C5E3900CA07F7 /* 更改字体大小 */ = {
 			isa = PBXGroup;
 			children = (
-				DDC8C89E1F1C5E3900CA07F7 /* AppDelegate.h */,
-				DDC8C89F1F1C5E3900CA07F7 /* AppDelegate.m */,
-				DDC8C8A11F1C5E3900CA07F7 /* ViewController.h */,
-				DDC8C8A21F1C5E3900CA07F7 /* ViewController.m */,
-				DDC8C8A41F1C5E3900CA07F7 /* Main.storyboard */,
-				DDC8C8A71F1C5E3900CA07F7 /* Assets.xcassets */,
-				DDC8C8A91F1C5E3900CA07F7 /* LaunchScreen.storyboard */,
-				DDC8C8AC1F1C5E3900CA07F7 /* Info.plist */,
+				DDC8C8D21F1C5ED600CA07F7 /* M */,
+				DDC8C8D41F1C5ED600CA07F7 /* V */,
+				DDC8C8D11F1C5ED600CA07F7 /* C */,
+				DDC8C8D31F1C5ED600CA07F7 /* Other */,
+				DDC8C8D01F1C5EC600CA07F7 /* AppDelegate */,
 				DDC8C89B1F1C5E3900CA07F7 /* Supporting Files */,
 			);
 			path = "更改字体大小";
@@ -117,6 +128,10 @@
 		DDC8C89B1F1C5E3900CA07F7 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				DDC8C8A41F1C5E3900CA07F7 /* Main.storyboard */,
+				DDC8C8A71F1C5E3900CA07F7 /* Assets.xcassets */,
+				DDC8C8A91F1C5E3900CA07F7 /* LaunchScreen.storyboard */,
+				DDC8C8AC1F1C5E3900CA07F7 /* Info.plist */,
 				DDC8C89C1F1C5E3900CA07F7 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -138,6 +153,55 @@
 				DDC8C8C21F1C5E3900CA07F7 /* Info.plist */,
 			);
 			path = "更改字体大小UITests";
+			sourceTree = "<group>";
+		};
+		DDC8C8D01F1C5EC600CA07F7 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				DDC8C89E1F1C5E3900CA07F7 /* AppDelegate.h */,
+				DDC8C89F1F1C5E3900CA07F7 /* AppDelegate.m */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		DDC8C8D11F1C5ED600CA07F7 /* C */ = {
+			isa = PBXGroup;
+			children = (
+				DDC8C8D51F1C600700CA07F7 /* HomeViewController.h */,
+				DDC8C8D61F1C600700CA07F7 /* HomeViewController.m */,
+				DDC8C8D81F1C61D300CA07F7 /* ActivityViewController.h */,
+				DDC8C8D91F1C61D300CA07F7 /* ActivityViewController.m */,
+				DDC8C8DB1F1C61E400CA07F7 /* SetUpViewController.h */,
+				DDC8C8DC1F1C61E400CA07F7 /* SetUpViewController.m */,
+				DDC8C8E41F1C914A00CA07F7 /* ChangeFontController.h */,
+				DDC8C8E51F1C914A00CA07F7 /* ChangeFontController.m */,
+			);
+			path = C;
+			sourceTree = "<group>";
+		};
+		DDC8C8D21F1C5ED600CA07F7 /* M */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = M;
+			sourceTree = "<group>";
+		};
+		DDC8C8D31F1C5ED600CA07F7 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				DDC8C8E21F1C8E4200CA07F7 /* Header.h */,
+				DDC8C8E31F1C8E8D00CA07F7 /* PrefixHeader.pch */,
+				DDC8C8E71F1CA1B200CA07F7 /* MJHUser.h */,
+				DDC8C8E81F1CA1B200CA07F7 /* MJHUser.m */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		DDC8C8D41F1C5ED600CA07F7 /* V */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = V;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -207,6 +271,7 @@
 				TargetAttributes = {
 					DDC8C8971F1C5E3900CA07F7 = {
 						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = B7UQ7WHB5T;
 						ProvisioningStyle = Automatic;
 					};
 					DDC8C8B01F1C5E3900CA07F7 = {
@@ -273,9 +338,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DDC8C8A31F1C5E3900CA07F7 /* ViewController.m in Sources */,
 				DDC8C8A01F1C5E3900CA07F7 /* AppDelegate.m in Sources */,
+				DDC8C8DD1F1C61E400CA07F7 /* SetUpViewController.m in Sources */,
+				DDC8C8E91F1CA1B200CA07F7 /* MJHUser.m in Sources */,
+				DDC8C8E61F1C914A00CA07F7 /* ChangeFontController.m in Sources */,
 				DDC8C89D1F1C5E3900CA07F7 /* main.m in Sources */,
+				DDC8C8D71F1C600700CA07F7 /* HomeViewController.m in Sources */,
+				DDC8C8DA1F1C61D300CA07F7 /* ActivityViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -424,7 +493,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = B7UQ7WHB5T;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/更改字体大小/Other/PrefixHeader.pch";
 				INFOPLIST_FILE = "更改字体大小/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "ganZhi.------";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -435,7 +508,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = B7UQ7WHB5T;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/更改字体大小/Other/PrefixHeader.pch";
 				INFOPLIST_FILE = "更改字体大小/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "ganZhi.------";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -507,6 +584,7 @@
 				DDC8C8C71F1C5E3900CA07F7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DDC8C8C81F1C5E3900CA07F7 /* Build configuration list for PBXNativeTarget "更改字体大小Tests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +593,7 @@
 				DDC8C8CA1F1C5E3900CA07F7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DDC8C8CB1F1C5E3900CA07F7 /* Build configuration list for PBXNativeTarget "更改字体大小UITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +602,7 @@
 				DDC8C8CD1F1C5E3900CA07F7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -12,6 +12,9 @@
 
 @property (strong, nonatomic) UIWindow *window;
 
++ (instancetype)sharedApplication;
+
+- (void)openHomeVC;
 
 @end
 
